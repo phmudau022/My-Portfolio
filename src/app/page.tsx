@@ -1,5 +1,3 @@
-// pages/index.js
-
 import Head from 'next/head';
 
 const Home = () => {
@@ -40,7 +38,8 @@ const Home = () => {
                 <li className="mb-2">Python</li>
                 <li className="mb-2">SQL</li>
                 <li className="mb-2">Firebase</li>
-                <li>Node.js</li>
+                <li className="mb-2">Node.js</li>
+                <li>Express.js</li>
               </ul>
             </div>
           </div>
