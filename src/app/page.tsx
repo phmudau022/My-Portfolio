@@ -187,9 +187,9 @@ const Home = () => {
           <a href="https://github.com/phmudau022" target="_blank" rel="noopener noreferrer">
             <FaGithub className="text-gray-800 text-4xl hover:text-gray-600 cursor-pointer" />
           </a>
-          <a href="https://aiapply.co/r/65fb25894d6c8" target="_blank" rel="noopener noreferrer" className="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded">
-    Resume
-  </a>
+          <a href="https://aiapply.co/r/65fb25894d6c8" download="your-resume.pdf" className="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded">
+            Download Resume
+          </a>
         </div>
 
       </div>
