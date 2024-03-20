@@ -5,3 +5,9 @@ export type ProjectType = {
     title: string,
     desc: string
 }
+
+export type LanguageType = {
+    title: string,
+    image: any,
+    id: string
+}
