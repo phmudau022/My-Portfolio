@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
-"use client"
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+"use client";
+import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 import { LanguageItem, Project } from "@/components";
 import Head from "next/head";
 import {
@@ -223,13 +223,11 @@ const Home = () => {
             <FaGithub className="text-gray-800 text-4xl hover:text-gray-600 cursor-pointer" />
           </a>
           <a
-            href="https://aiapply.co/r/65fb25894d6c8"
-            download="your-resume.pdf"
-            className="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded"
+            href="mailto:phumulamudau259@gmail.com"
+            className="text-gray-800 text-4xl hover:text-gray-600 cursor-pointer"
           >
-            Download Resume
+            <FaEnvelope />
           </a>
-          <button onClick={fetchData}>Api fetch</button>
         </div>
       </div>
     </div>

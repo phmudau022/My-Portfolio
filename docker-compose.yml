@@ -1,0 +1,19 @@
+# Use postgres/example user/password credentials
+version: '3.9'
+services:
+  db:
+    container_name: postgres  # Set the container name to 'postgres'
+    image: postgres  # Use the official PostgreSQL Docker image
+    ports:
+      - "5432:5432"  # Expose port 5432 on the host machine to connect to the PostgreSQL database
+    restart: always  # Restart the container automatically if it stops
+    environment:
+      POSTGRES_USER: postgres  # Set the PostgreSQL username to 'postgres'
+      POSTGRES_PASSWORD: postgres  # Set the PostgreSQL password to 'postgres'
+      POSTGRES_DB: postgres  # Create a database named 'postgres'
+
+  adminer:
+    image: adminer  # Use the official Adminer Docker image
+    restart: always  # Restart the container automatically if it stops
+    ports:
+      - 8080:8080  # Expose port 8080 on the host machine to access Adminer web interface
